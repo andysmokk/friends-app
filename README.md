@@ -1,3 +1,3 @@
-# Document Object Model
+# Friends App
 
-[Demo](https://andysmokk.github.io/js-dom/)
+[Demo](https://andysmokk.github.io/friends-app/)
