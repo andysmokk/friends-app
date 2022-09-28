@@ -18,9 +18,6 @@ const sortByGender = (users, gender) => {
 };
 
 const sortNameByAlphabet = (users, sorting) => {
-  console.log(users);
-  console.log(sorting);
-
   return users.sort((a, b) => {
     if (sorting === "first name A-Z") {
       return a.name.first > b.name.first ? 1 : -1;

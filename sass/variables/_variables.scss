@@ -1,44 +1,9 @@
 :root {
     --default-font: 'Roboto Slab';
     --default-font-size: 14px;
-    --black: #000000;
-    --white: #ffffff;
     --friends-red: #E91E23;
     --friends-blue: #02B2E7;
     --friends-yellow: #FABC16;
-    --background-color-btn: #0000008e;
-    --hover-focus: #000000c4;
-    --default-white-shadow: -0 -1px 1px #FFFFFF,
-        0 -1px 1px #FFFFFF,
-        -0 1px 1px #FFFFFF,
-        0 1px 1px #FFFFFF,
-        -1px -0 1px #FFFFFF,
-        1px -0 1px #FFFFFF,
-        -1px 0 1px #FFFFFF,
-        1px 0 1px #FFFFFF,
-        -1px -1px 1px #FFFFFF,
-        1px -1px 1px #FFFFFF,
-        -1px 1px 1px #FFFFFF,
-        1px 1px 1px #FFFFFF,
-        -1px -1px 1px #FFFFFF,
-        1px -1px 1px #FFFFFF,
-        -1px 1px 1px #FFFFFF,
-        1px 1px 1px #FFFFFF;
-    ;
-    --default-black-shadow: -0 -1px 0 #000000,
-        0 -1px 0 #000000,
-        -0 1px 0 #000000,
-        0 1px 0 #000000,
-        -1px -0 0 #000000,
-        1px -0 0 #000000,
-        -1px 0 0 #000000,
-        1px 0 0 #000000,
-        -1px -1px 0 #000000,
-        1px -1px 0 #000000,
-        -1px 1px 0 #000000,
-        1px 1px 0 #000000,
-        -1px -1px 0 #000000,
-        1px -1px 0 #000000,
-        -1px 1px 0 #000000,
-        1px 1px 0 #000000;
+    --hover-focus: #E91E23;
+    --default-shadow: 4px 4px 8px 0px #02B2E7;
 }
