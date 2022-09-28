@@ -40,16 +40,16 @@ const sortNameByAlphabet = (users, sorting) => {
   });
 };
 
-// const sortByAge = (users, sorting) => {
-//   return users.sort((a, b) => {
-//     if (sorting === "A-Z") {
-//       return a.name.last > b.name.last ? 1 : -1;
-//     }
+const sortByAge = (users, sorting) => {
+  return users.sort((a, b) => {
+    if (sorting === "age-ascending") {
+      return a.dob.age - b.dob.age;
+    }
 
-//     if (sorting === "Z-A") {
-//       return a.name.last < b.name.last ? 1 : -1;
-//     }
-//   });
-// };
+    if (sorting === "age-descending") {
+      return b.dob.age - a.dob.age;
+    }
+  });
+};
 
-export { sortByName, sortByGender, sortNameByAlphabet };
+export { sortByName, sortByGender, sortNameByAlphabet, sortByAge };
