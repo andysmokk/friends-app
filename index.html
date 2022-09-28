@@ -32,6 +32,7 @@
             <div class="main-box-left-panel">
               <form action="" class="search-form" id="search-form">
                 <input
+                  class="search-form-input"
                   type="text"
                   name="nameInput"
                   placeholder="Enter friend's first or last name"
@@ -44,64 +45,82 @@
                 class="filter-name-age-form"
                 id="filter-name-age-form"
               >
-                <fieldset class="name">
-                  <legend>Name</legend>
+                <fieldset class="filter-name-fieldset">
+                  <legend class="filter-name-legend">Name</legend>
                   <div>
                     <input
+                      class="filter-name-input"
                       type="radio"
                       id="firstNameA-z"
                       name="nameSortInput"
                       value="first name A-Z"
                     />
-                    <label for="firstNameA-z">First name A-Z</label>
+                    <label class="filter-name-label" for="firstNameA-z"
+                      >First name A-Z</label
+                    >
                   </div>
                   <div>
                     <input
+                      class="filter-name-input"
                       type="radio"
                       id="firstNameZ-a"
                       name="nameSortInput"
                       value="first name Z-A"
                     />
-                    <label for="firstNameZ-a">First name Z-A</label>
+                    <label class="filter-name-label" for="firstNameZ-a"
+                      >First name Z-A</label
+                    >
                   </div>
                   <div>
                     <input
+                      class="filter-name-input"
                       type="radio"
                       id="lastNameA-z"
                       name="nameSortInput"
                       value="last name A-Z"
                     />
-                    <label for="lastNameA-z">Last name A-Z</label>
+                    <label class="filter-name-label" for="lastNameA-z"
+                      >Last name A-Z</label
+                    >
                   </div>
                   <div>
                     <input
+                      class="filter-name-input"
                       type="radio"
                       id="lastNameZ-a"
                       name="nameSortInput"
                       value="last name Z-A"
                     />
-                    <label for="lastNameZ-a">Last name Z-A</label>
+                    <label class="filter-name-label" for="lastNameZ-a"
+                      >Last name Z-A</label
+                    >
                   </div>
                 </fieldset>
-                <fieldset>
-                  <legend>Age</legend>
+                <fieldset class="filter-age-fieldset">
+                  <legend class="filter-age-legend">Age</legend>
                   <div>
                     <input
+                      class="filter-age-input"
                       type="radio"
                       id="age-ascending"
                       name="ageInput"
                       value="age-ascending"
                     />
-                    <label for="age-ascending">Ascending</label>
+                    <label class="filter-age-label" for="age-ascending"
+                      >Ascending</label
+                    >
                   </div>
                   <div>
                     <input
+                      class="filter-age-input"
                       type="radio"
                       id="age-descending"
                       name="ageInput"
                       value="age-descending"
                     />
-                    <label for="age-descending">Descending</label>
+                    <label class="filter-age-label" for="age-descending"
+                      >Descending</label
+                    >
                   </div>
                 </fieldset>
               </form>
@@ -110,35 +129,40 @@
                 class="filter-gender-form"
                 id="filter-gender-form"
               >
-                <fieldset>
-                  <legend>Gender</legend>
+                <fieldset class="filter-gender-fieldset">
+                  <legend class="filter-gender-legend">Gender</legend>
                   <div>
                     <input
+                      class="filter-gender-input"
                       type="radio"
                       id="all"
                       name="genderInput"
                       value="all"
                       checked
                     />
-                    <label for="all">All</label>
+                    <label class="filter-gender-label" for="all">All</label>
                   </div>
                   <div>
                     <input
+                      class="filter-gender-input"
                       type="radio"
                       id="female"
                       name="genderInput"
                       value="female"
                     />
-                    <label for="female">Female</label>
+                    <label class="filter-gender-label" for="female"
+                      >Female</label
+                    >
                   </div>
                   <div>
                     <input
+                      class="filter-gender-input"
                       type="radio"
                       id="male"
                       name="genderInput"
                       value="male"
                     />
-                    <label for="male">Male</label>
+                    <label class="filter-gender-label" for="male">Male</label>
                   </div>
                 </fieldset>
               </form>

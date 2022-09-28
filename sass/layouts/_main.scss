@@ -3,7 +3,7 @@
     grid-template-columns: 250px 1fr;
     column-gap: 15px;
 
-    outline: 2px solid red;
+    outline: 1px solid red;
 
 
     // @media screen and (max-width: 580px) {
@@ -11,13 +11,98 @@
     // }
 }
 
-.main-box-left-panel {}
-
-.form {
+.main-box-left-panel {
     padding: 10px;
     border: 2px solid black;
     border-radius: 5px;
+
+    outline: 1px solid red;
 }
+
+.filter-name-age-form,
+.filter-gender-form,
+.filter-age-fieldset {
+    margin-top: 15px;
+}
+
+.search-form-input {
+    font-size: var(--default-font-size);
+    padding: 10px;
+    border: 1px solid var(--friends-blue);
+    border-radius: 5px;
+    width: 90%
+}
+
+.search-form-input:hover,
+.search-form-input:focus {
+    border: 1px solid var(--friends-yellow);
+    outline: none;
+}
+
+.filter-name-fieldset,
+.filter-age-fieldset,
+.filter-gender-fieldset {
+    padding: 5px 10px 10px 10px;
+    border: 1px solid var(--friends-blue);
+    border-radius: 5px;
+}
+
+.filter-name-fieldset:hover,
+.filter-name-fieldset:focus,
+.filter-age-fieldset:hover,
+.filter-age-fieldset:focus,
+.filter-gender-fieldset:hover,
+.filter-gender-fieldset:focus {
+    border: 1px solid var(--friends-yellow);
+}
+
+.filter-name-legend,
+.filter-age-legend,
+.filter-gender-legend {
+    padding: 0px 5px 0px 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.filter-name-input,
+.filter-name-label,
+.filter-age-input,
+.filter-age-label,
+.filter-gender-input,
+.filter-gender-label {
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+// .filter-name-input:hover,
+.filter-name-label:hover,
+.filter-age-label:hover,
+.filter-gender-label:hover {
+    color: var(--friends-blue);
+    font-weight: 700;
+}
+
+.active {
+    color: var(--friends-blue);
+    font-weight: 700;
+}
+
+.filter-age-legend {
+    padding: 0px 5px 0px 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+// .search-form-input:checked {
+//     border: 10px solid var(--friends-yellow);
+// }
+
+// .search-form {
+//     padding: 10px;
+//     border: 2px solid black;
+//     border-radius: 5px;
+// }
 
 .main-box-list {
     display: grid;
@@ -25,6 +110,7 @@
     column-gap: 15px;
     row-gap: 15px;
 
+    outline: 1px solid red;
 }
 
 .main-box-list-item {
