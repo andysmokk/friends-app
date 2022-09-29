@@ -47,7 +47,7 @@
               >
                 <fieldset class="filter-name-fieldset">
                   <legend class="filter-name-legend">Name</legend>
-                  <div>
+                  <div class="ïmg">
                     <input
                       class="filter-name-input"
                       type="radio"
@@ -56,7 +56,11 @@
                       value="first name A-Z"
                     />
                     <label class="filter-name-label" for="firstNameA-z"
-                      >First name A-Z</label
+                      ><svg class="filter-name-svg" width="25" height="25">
+                        <use href="./images/sprite.svg#a-z"></use></svg
+                      ><span class="filter-name-label-span"
+                        >First name</span
+                      ></label
                     >
                   </div>
                   <div>
@@ -68,7 +72,11 @@
                       value="first name Z-A"
                     />
                     <label class="filter-name-label" for="firstNameZ-a"
-                      >First name Z-A</label
+                      ><svg class="filter-name-svg" width="25" height="25">
+                        <use href="./images/sprite.svg#z-a"></use></svg
+                      ><span class="filter-name-label-span"
+                        >First name</span
+                      ></label
                     >
                   </div>
                   <div>
@@ -80,7 +88,11 @@
                       value="last name A-Z"
                     />
                     <label class="filter-name-label" for="lastNameA-z"
-                      >Last name A-Z</label
+                      ><svg class="filter-name-svg" width="25" height="25">
+                        <use href="./images/sprite.svg#a-z"></use></svg
+                      ><span class="filter-name-label-span"
+                        >Last name</span
+                      ></label
                     >
                   </div>
                   <div>
@@ -92,7 +104,11 @@
                       value="last name Z-A"
                     />
                     <label class="filter-name-label" for="lastNameZ-a"
-                      >Last name Z-A</label
+                      ><svg class="filter-name-svg" width="25" height="25">
+                        <use href="./images/sprite.svg#z-a"></use></svg
+                      ><span class="filter-name-label-span"
+                        >Last name</span
+                      ></label
                     >
                   </div>
                 </fieldset>
@@ -107,7 +123,11 @@
                       value="age-ascending"
                     />
                     <label class="filter-age-label" for="age-ascending"
-                      >Ascending</label
+                      ><svg class="filter-age-svg" width="26" height="26">
+                        <use href="./images/sprite.svg#ascending"></use></svg
+                      ><span class="filter-name-label-span"
+                        >Ascending</span
+                      ></label
                     >
                   </div>
                   <div>
@@ -118,9 +138,11 @@
                       name="ageInput"
                       value="age-descending"
                     />
-                    <label class="filter-age-label" for="age-descending"
-                      >Descending</label
-                    >
+                    <label class="filter-age-label" for="age-descending">
+                      <svg class="filter-age-svg" width="26" height="26">
+                        <use href="./images/sprite.svg#descending"></use></svg
+                      ><span class="filter-name-label-span">Descending</span>
+                    </label>
                   </div>
                 </fieldset>
               </form>
@@ -140,9 +162,13 @@
                       value="all"
                       checked
                     />
-                    <label class="filter-gender-label active" for="all"
-                      >All</label
-                    >
+                    <label class="filter-gender-label active" for="all">
+                      <svg class="filter-gender-svg" width="25" height="25">
+                        <use
+                          href="./images/sprite.svg#female-male-filter"
+                        ></use></svg
+                      ><span class="filter-name-label-span">All</span>
+                    </label>
                   </div>
                   <div>
                     <input
@@ -152,9 +178,11 @@
                       name="genderInput"
                       value="female"
                     />
-                    <label class="filter-gender-label" for="female"
-                      >Female</label
-                    >
+                    <label class="filter-gender-label" for="female">
+                      <svg class="filter-gender-svg" width="24" height="24">
+                        <use href="./images/sprite.svg#female"></use></svg
+                      ><span class="filter-name-label-span">Female</span>
+                    </label>
                   </div>
                   <div>
                     <input
@@ -164,7 +192,11 @@
                       name="genderInput"
                       value="male"
                     />
-                    <label class="filter-gender-label" for="male">Male</label>
+                    <label class="filter-gender-label" for="male">
+                      <svg class="filter-gender-svg" width="25" height="25">
+                        <use href="./images/sprite.svg#male"></use></svg
+                      ><span class="filter-name-label-span">Male</span>
+                    </label>
                   </div>
                 </fieldset>
               </form>
