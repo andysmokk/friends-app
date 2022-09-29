@@ -1,9 +1,14 @@
 const sortByName = (users, name) => {
   return users.filter((user) => {
+    const searchName = name.toLowerCase();
+    console.log(
+      "🚀 ~ file: filters.js ~ line 4 ~ returnusers.filter ~ searchName",
+      searchName
+    );
     const firsName = user.name.first.toLowerCase();
     const lassName = user.name.last.toLowerCase();
 
-    if (firsName.includes(name) || lassName.includes(name)) {
+    if (firsName.includes(searchName) || lassName.includes(searchName)) {
       return user;
     }
   });
